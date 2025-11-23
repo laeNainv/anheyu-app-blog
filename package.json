@@ -1,0 +1,14 @@
+{
+"name": "anheyu-app-blog",
+"version": "1.0.0",
+"scripts": {
+"dev": "echo '请根据 anheyu-app 文档启动 dev'",
+"build": "node scripts/build-search.js && echo '构建完成: 请根据 anheyu-app 构建流程运行'",
+"export": "node scripts/build-search.js"
+},
+"dependencies": {
+"gray-matter": "^4.0.3",
+"glob": "^10.3.3",
+"yaml": "^2.4.2"
+}
+}

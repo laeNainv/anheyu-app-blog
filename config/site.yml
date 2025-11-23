@@ -1,0 +1,37 @@
+# 网站基本配置
+site:
+	# 网站标题，显示在页面标题和导航
+	title: "Dayv-Blog"
+	# 简短描述，常用于 meta 描述或首页摘要
+	description: "由安和宇应用程序提供支持"
+	# 站点的完整 URL，用于生成 RSS、sitemap 和绝对链接
+	url: "https://yourdomain.com"
+	author:
+		# 作者姓名，显示在文章作者处
+		name: "大鱼"
+
+# 功能开关：开启或关闭站点功能
+features:
+	# 是否在文章页显示目录（Table of Contents）
+	toc: true
+	# 是否生成 RSS 订阅
+	rss: true
+	# 是否生成 sitemap.xml
+	sitemap: true
+	search:
+		# 搜索类型：'local' 表示本地搜索，可能也支持第三方服务（例如 algolia）
+		type: local
+
+# 评论配置
+comments:
+	# 评论提供者，例如 'giscus'、'disqus' 等
+	provider: giscus
+	# 对于 giscus，填写仓库路径 'owner/repo'
+	repo: laeNainv/Dayvyv-blog
+	# 评论分类（giscus 中的 category）
+	category: General
+
+# 图片相关配置
+image:
+	# 图片提供者，例如 'github' 使用 GitHub 存储图片
+	provider: github
